@@ -1,0 +1,13 @@
+TYPE InventoryGrid/Element -> InventoryElement
+HARMONY System.Boolean Inventory::AddItem(ItemDrop/ItemData,System.Int32,System.Int32,System.Int32,System.Boolean)
+HARMONY ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,Vector2i,System.Boolean,System.Boolean,System.Boolean)
+CALL System.Void Inventory::Changed() -> System.Void Inventory::Changed(System.Boolean,System.Boolean)
+CALL System.Void Inventory::Changed() -> System.Void Inventory::Changed(System.Boolean,System.Boolean)
+CALL System.Void Inventory::Changed() -> System.Void Inventory::Changed(System.Boolean,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+FIELD-TO-PROPERTY InventoryElement.m_go -> Component.gameObject
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL System.Void Inventory::Changed() -> System.Void Inventory::Changed(System.Boolean,System.Boolean)
+CALL System.Void Inventory::Changed() -> System.Void Inventory::Changed(System.Boolean,System.Boolean)
+CHANGES: 10
+WROTE .\compat-tools\patched\ComfyQuickSlots.dll

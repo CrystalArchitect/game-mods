@@ -1,0 +1,7 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework><OutputType>Exe</OutputType><ImplicitUsings>enable</ImplicitUsings>
+    <GamePath Condition="'$(GamePath)' == ''">C:\Program Files (x86)\Steam\steamapps\common\Valheim</GamePath>
+  </PropertyGroup>
+  <ItemGroup><Reference Include="Mono.Cecil"><HintPath>$(GamePath)\BepInEx\core\Mono.Cecil.dll</HintPath></Reference></ItemGroup>
+</Project>

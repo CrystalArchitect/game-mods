@@ -1,0 +1,12 @@
+**/bin/
+**/obj/
+**/backups/
+**/patched/
+**/reference/
+**/test-saves*/
+*.log
+*.fch*
+*.db*
+*.fwl*
+*.png
+.env*

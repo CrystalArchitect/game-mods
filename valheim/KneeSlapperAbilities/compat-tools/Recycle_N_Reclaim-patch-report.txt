@@ -1,0 +1,22 @@
+TYPE InventoryGrid/Element -> InventoryElement
+HARMONY System.String ItemDrop/ItemData::GetTooltip(ItemDrop/ItemData,System.Int32,System.Boolean,System.Single,System.Int32,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean) -> ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean,System.Boolean)
+CALL ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean) -> ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean) -> ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean,System.Boolean)
+CALL ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean) -> ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean,System.Boolean)
+CALL System.Void MessageHud::ShowMessage(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean) -> System.Void MessageHud::ShowMessage(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean,System.Boolean)
+CALL ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean) -> ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean,System.Boolean)
+CALL ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean) -> ItemDrop/ItemData Inventory::AddItem(System.String,System.Int32,System.Int32,System.Int32,System.Int64,System.String,System.Boolean,System.Boolean)
+CONST System.Int64 ZRoutedRpc::Everybody = 0
+CONST System.Int64 ZRoutedRpc::Everybody = 0
+CONST System.Int64 ZRoutedRpc::Everybody = 0
+GUARD reclaim ingredient lookup skips null/non-item prefabs
+CHANGES: 19
+WROTE .\compat-tools\patched\Recycle_N_Reclaim.dll

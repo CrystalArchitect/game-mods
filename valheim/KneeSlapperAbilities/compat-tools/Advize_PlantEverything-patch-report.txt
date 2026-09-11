@@ -1,0 +1,9 @@
+CALL System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite) -> System.Void Character::Message(MessageHud/MessageType,System.String,System.Int32,UnityEngine.Sprite,System.Boolean)
+CALL UnityEngine.GameObject[] EffectList::Create(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform,System.Single,System.Int32) -> UnityEngine.GameObject[] EffectList::Create(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform,System.Single,System.Int32,ZDOID)
+CALL UnityEngine.GameObject[] EffectList::Create(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform,System.Single,System.Int32) -> UnityEngine.GameObject[] EffectList::Create(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform,System.Single,System.Int32,ZDOID)
+CALL UnityEngine.GameObject[] EffectList::Create(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform,System.Single,System.Int32) -> UnityEngine.GameObject[] EffectList::Create(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Transform,System.Single,System.Int32,ZDOID)
+CONST System.Int64 ZRoutedRpc::Everybody = 0
+CONST System.Int64 ZRoutedRpc::Everybody = 0
+CONST System.Int64 ZRoutedRpc::Everybody = 0
+CHANGES: 7
+WROTE .\compat-tools\patched\Advize_PlantEverything.dll

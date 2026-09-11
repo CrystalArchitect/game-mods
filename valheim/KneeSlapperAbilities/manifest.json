@@ -1,0 +1,10 @@
+{
+  "name": "KneeSlapperAbilities",
+  "version_number": "1.4.0",
+  "website_url": "https://github.com/aurous37-lang/game-mods",
+  "description": "Knee-Slapper abilities, gathering gear and Valheim 1.0.7 profile compatibility.",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2350",
+    "ValheimModding-Jotunn-2.30.0"
+  ]
+}

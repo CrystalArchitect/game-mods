@@ -1,0 +1,24 @@
+{
+  "gameVersion": "1.0.7",
+  "date": "2026-09-10",
+  "mods": [
+    {
+      "dll": "ComfyQuickSlots.dll",
+      "relativePath": "BepInEx\\plugins\\ComfyMods-ComfyQuickSlots\\ComfyQuickSlots.dll",
+      "originalSHA256": "91DDD67D7D16DE10985A9184A32BCC9C8CCE688E55958014F7DE6D39D35C581C",
+      "patchedSHA256": "3E988F144B444FC465E7E7F1AAEFE7766B958F23AB9BFC5A4BBD37D767A541F1"
+    },
+    {
+      "dll": "Recycle_N_Reclaim.dll",
+      "relativePath": "BepInEx\\plugins\\Azumatt-Recycle_N_Reclaim\\Recycle_N_Reclaim.dll",
+      "originalSHA256": "A3F6EB70362CCFE51F1FFB693FA7444204324F3CBAE024186319FCCF7B900888",
+      "patchedSHA256": "0111C6D8C23CBD4BCBEB397001F91B3A92C888FDA923CF28B66738F563ED7EA3"
+    },
+    {
+      "dll": "Advize_PlantEverything.dll",
+      "relativePath": "BepInEx\\plugins\\Advize-PlantEverything\\Advize_PlantEverything.dll",
+      "originalSHA256": "0665C86E5694300EA369A6AD24156C0A19CCE96BAF948B58CDCA0B43BE36D304",
+      "patchedSHA256": "B32EDC9ACE5C33365878FF04B0B11A6C71742E8123FB41DF4B6FFDF371C844B5"
+    }
+  ]
+}

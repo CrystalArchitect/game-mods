@@ -1,0 +1,62 @@
+[Info   :Freeze Integration Check] PASS: intended character and ammunition match
+[Info   :Freeze Integration Check] PASS: other characters and ammunition excluded
+[Info   :Freeze Integration Check] PASS: Comfy equipment row and Better Archery quiver survive inventory resizing
+[Info   :Freeze Integration Check] PASS: Comfy places equipped helmet in reserved head slot
+[Info   :Freeze Integration Check] PASS: inventory opens with visible Comfy equipment row and separate quiver rows
+[Info   :Freeze Integration Check] PASS: Recycle N Reclaim tooltip patch executes
+[Info   :Freeze Integration Check] PASS: Plant Everything registers plantable raspberry bush in cultivator
+[Info   :Freeze Integration Check] PASS: Plant Everything raspberry bush spawns with harvest component
+[Info   :Freeze Integration Check] PASS: Recycle N Reclaim analyzes a disposable club recipe
+[Info   :Freeze Integration Check] PASS: Recycle N Reclaim consumes disposable club and returns wood
+[Info   :Freeze Integration Check] PASS: gathering kit delivered and marked once
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: Bow
+[Info   :Freeze Integration Check] PASS: unlimited durability: Bow
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: BowGold_FrostFire
+[Info   :Freeze Integration Check] PASS: unlimited durability: BowGold_FrostFire
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: AxeGold_FrostFire
+[Info   :Freeze Integration Check] PASS: unlimited durability: AxeGold_FrostFire
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: PickaxeBlackMetal
+[Info   :Freeze Integration Check] PASS: unlimited durability: PickaxeBlackMetal
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: Hammer
+[Info   :Freeze Integration Check] PASS: unlimited durability: Hammer
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: Hoe
+[Info   :Freeze Integration Check] PASS: unlimited durability: Hoe
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: Cultivator
+[Info   :Freeze Integration Check] PASS: unlimited durability: Cultivator
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: Scythe
+[Info   :Freeze Integration Check] PASS: unlimited durability: Scythe
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: FishingRod
+[Info   :Freeze Integration Check] PASS: unlimited durability: FishingRod
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: ArrowWood
+[Info   :Freeze Integration Check] PASS: kit item present at requested quality: FishingBait
+[Info   :Freeze Integration Check] PASS: repeat delivery creates no duplicates
+[Info   :Freeze Integration Check] PASS: basic bow and wooden arrows equipped
+[Info   :Freeze Integration Check] PASS: carrying capacity supports full kit
+[Info   :Freeze Integration Check] PASS: stamina does not drain and suffices for any action
+[Info   :Freeze Integration Check] PASS: global bow prefab retains normal durability
+[Info   :Freeze Integration Check] PASS: 200 ammo uses retain all wooden arrows
+[Info   :Freeze Integration Check] PASS: other character retains normal ammo consumption and capacity
+[Info   :Freeze Integration Check] PASS: isolated test character loaded
+[Info   :Freeze Integration Check] PASS: custom status registered in game ObjectDB
+[Info   :Freeze Integration Check] PASS: wooden arrow collision applies freeze to enemy
+[Info   :Freeze Integration Check] PASS: enemy physics, animation and movement are frozen
+[Info   :Freeze Integration Check] PASS: enemy AI suspended
+[Info   :Freeze Integration Check] PASS: enemy cannot start an attack
+[Info   :Freeze Integration Check] PASS: enemy remains stationary
+[Info   :Freeze Integration Check] PASS: second hit refreshes freeze beyond original expiry
+[Info   :Freeze Integration Check] PASS: freeze expires two seconds after last hit
+[Info   :Freeze Integration Check] PASS: physics and animation restore after thaw
+[Info   :Freeze Integration Check] PASS: fire arrow collision does not apply custom freeze
+[Info   :Freeze Integration Check] PASS: tamed creatures are excluded
+[Info   :Freeze Integration Check] PASS: normal first jump works
+[Info   :Freeze Integration Check] PASS: player is airborne before second jump
+[Info   :Freeze Integration Check] PASS: second jump boosts upward velocity in midair
+[Info   :Freeze Integration Check] PASS: third airborne jump is blocked
+[Info   :Freeze Integration Check] PASS: other characters receive no airborne jump
+[Info   :Freeze Integration Check] PASS: landing restores Knee-Slapper's extra jump
+[Info   :Freeze Integration Check] PASS: Knee-Slapper's fall damage resolves to zero
+[Info   :Freeze Integration Check] PASS: other characters retain normal fall damage
+[Info   :Freeze Integration Check] PASS: 30-meter drop test starts airborne
+[Info   :Freeze Integration Check] PASS: 30-meter fall causes no health loss with god mode disabled
+[Info   :Freeze Integration Check] PASS: ordinary damage still applies
+[Info   :Freeze Integration Check] FREEZE_TEST_ALL_PASS
